@@ -1,3 +1,4 @@
+docker build -t producer .
 docker rm -f producer
 docker run -d --network data-playground \
     --name producer \
